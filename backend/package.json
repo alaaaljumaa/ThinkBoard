@@ -6,10 +6,10 @@
   "author": "",
   "type": "module",
   "main": "src/server.js",
-  "scripts": {
-    "dev": "nodemon --env-file=.env src/server.js",
-    "start": "node --env-file=.env src/server.js"
-  },
+ "scripts": {
+  "start": "node src/server.js",
+  "dev": "nodemon src/server.js"
+},
   "dependencies": {
     "@upstash/ratelimit": "^2.0.5",
     "@upstash/redis": "^1.34.9",
